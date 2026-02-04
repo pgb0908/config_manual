@@ -1,0 +1,40 @@
+### Intelligence
+* MCP Server & Tool Catalog
+  * mcp_export_enabled
+  * tool_description
+  * input_output_schema
+  * tool_registry_scope
+* Agent Control Plane
+  * scope
+    * agent_scopes
+  * safe-guard
+    * idempotency_mode
+    * dry_run_policy
+    * approval_threshold
+  * orchestration
+    * plan_execute_verify
+  * log
+* AI-driven SDLC Assist
+  * draft_gen_mode
+  * test_gen_mode
+  * check_deploy
+* AI Layer Governance
+  * model_registry
+    * model_provider_groups
+    * fallback_routing
+  * DLP
+    * PII masking
+    * prompt_check
+  * showback_budget
+  * Eval
+* Autonomous Operations
+  * Automated RCA
+  * Runbook Ops
+  * HITL
+* Legacy MCP Integration
+  * adapter_type_setting
+    * proxy_mode
+    * bridge_mode
+    * agent_mode
+  * metadata_collector
+    * auto_harvest_enabled

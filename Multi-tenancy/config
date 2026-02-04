@@ -1,0 +1,5 @@
+### Multi-tenancy & Resource Isolation
+* 테넌트 식별자 tenant_id
+* 테넌트 도메인 tenant_domain
+* 비즈니스 그룹 business_group_id
+* 상위 조직 참조 parent_org_id

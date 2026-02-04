@@ -1,0 +1,72 @@
+### APIM
+* API Design
+  * spec_url
+  * oas_validation
+  * validate_body
+  * base_path
+* Mocking Service
+  * mock_rules
+  * stub_payload
+  * random_delay_range
+  * error_simulation_rate
+* Lifecycle
+  * api_version
+  * lifecycle_status
+  * sunset_date
+* Developer Portal
+  * portal_visibility
+  * self_registration
+  * approval_type
+  * usage_analytics_access
+  * code_snippets_languages
+* Traffic Policies
+  * Rate Limit
+  * Quota
+    * limit_count
+    * interval
+  * burst_limit
+    * rate
+    * identifier
+  * max_concurrency
+    * max_concurrency
+  * SLA tier
+    * client_id
+* Security Policies
+  * jwt 검증
+    * jwks_url
+    * issuer
+    * audiences
+    * clock_skew
+  * OAuth2.0
+    * grant_types
+    * scopes
+    * token_introspection_url
+  * mTLS
+    * client_cert_ca
+    * verify_depth
+  * IP Allowlist
+  * JSON Threat Protection
+    * max_container_depth
+    * max_string_length
+  * CORS
+* Transformation policy
+  * header/param manipulate
+    * inject_headers
+    * remove_headers
+    * rename_query_params
+  * type_trans
+    * json_to_xml
+    * xml_to_json
+  * masking
+    * masking_regex_pattern
+* Reliability
+  * Caching
+    * ttl
+    * cache_key_params
+    * invalidation_headers
+  * LB
+    * algorithm
+    * targets
+  * CB
+    * failure_threshold
+    * reset_timeout

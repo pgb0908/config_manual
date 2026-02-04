@@ -1,0 +1,32 @@
+### Governance
+* Org Hierarchy
+  * org_name
+  * org_domain
+  * session_timeout
+  * inherit_parent_policy
+* user_mgt
+  * auth_origin
+  * JIT
+  * MFA policy
+* RBAC
+  * role_definitions
+  * team_mapping
+* security & privacy
+  * secret Management
+  * Data Masking
+  * BYOK
+* Design Guardrails
+  * naming_conventions
+  * max_flow_depth
+  * security_scan_rules
+  * deployment_gate
+* Asset Templates
+  * scaffolding_templates
+  * canonical_models
+  * 배폼 범위 설정
+* ai_mgt
+* Change Approval
+  * policy_definitions
+  * validation_trigger
+  * approval_flow_id
+  * violation_behavior

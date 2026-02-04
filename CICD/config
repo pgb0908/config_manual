@@ -1,0 +1,32 @@
+### CI/CD
+* 버전 태깅 (Version Tagging)
+* 배포 매니페스트 (Manifest File)
+* 롤백 정책 (Rollback Policy)
+* Deployment Strategy
+  * release_strategy
+  * canary_weight
+  * canary_duration
+  * rollback_criteria
+* Runtime & Infra Architecture
+  * Deployment Target
+    * deployment_type
+    * region_location
+    * environment_id
+    * vpc_subnet_id
+  * Runtime Profile
+    * resource_allocation
+    * concurrency_control
+    * back_pressure
+    * queue_mgt
+  * Distributed & HA
+    * replicas
+    * ha profiling
+    * cluster_arch
+    * worker_pool
+  * Stateful Recovery
+    * check_point
+    * state_store
+    * recoverty_policy
+  * endpoint exposure
+    * ingress_config
+    * tls setting

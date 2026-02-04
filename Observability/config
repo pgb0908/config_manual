@@ -1,0 +1,27 @@
+### Observability
+* Telemetry
+  * otel_collector_url
+  * service_namespace
+  * trace_sampling_ratio
+  * export_protocol
+* collection target policy
+  * Gateway
+    * access_logging
+    * policy_metrics
+    * payload_capture
+  * flow
+    * execution_tracing
+    * component_metrics
+    * custom_logs
+* Distributed Tracing
+  * context_propagation
+  * correlation_id_pattern
+* Detection & Prediction
+  * analyzer_type
+  * fluctuation_multiplier
+  * risk_score_threshold
+  * prediction_horizon
+* 운영분석
+  * bottleneck_criteria
+  * topN
+  * correlationWithError

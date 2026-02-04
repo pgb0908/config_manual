@@ -1,0 +1,40 @@
+- Flow/integration
+  - Trigger
+    - polling
+      - interval
+      - batch_size
+      - paging_token
+      - deduplication_key
+    - Webhook: 외부 요청 수신
+      - webhook_subscribe
+      - webhook_unsubscribe
+      - webhook_response_type
+    - Scheduler
+    - Event Listener
+  - Orchestration
+    - Condition
+      - expression
+      - route_order
+      - otherwise
+    - Iteration
+      - For-Each
+      - Parallel For-Each
+      - Batch Job
+    - Execution Exception Policies
+      - retry_strategy
+      - max_retries
+      - max_failed_records
+      - error_behavior
+    - Distributed Transactions & SAGA
+      - saga_coordination
+      - compensation_flow_id
+      - is_pivot_step
+      - txn_timeout_ms
+    - Idempotency Control
+      - Idempotency Key
+      - 상태저장소 참조
+      - cache_previous_response
+  - Resiliency & Retry
+    - maxRetries
+    - interval
+    - retry_if
